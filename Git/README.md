@@ -1,13 +1,18 @@
 GIT
 ===
 
-1. Visualiser les commits
+1. Des couleurs
+
+    `$ git config --global color.ui auto`
+
+2. Visualiser les commits
 
     ```
     $ git log --pretty=oneline -abbrev-commit -n4
     $ git show as1e45 --format=email
     ``` 
-2. Ajouter une origine
+
+3. Ajouter une origine
 
     ```
     $ git remote add origin https://github.com/username/Hello-World.git
