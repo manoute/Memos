@@ -5,6 +5,8 @@ Bash
 Exemple
 -------
 
+.. code:: bash
+
     # ------------- SCRIPT ------------- #
 
     #!/bin/bash
