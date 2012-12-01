@@ -4,4 +4,4 @@ Bienvenue
 
 [[Git |Git/git]]
 
-[[Bash | Bash/bash.rst]]
+[[Bash | Bash/bash]]
