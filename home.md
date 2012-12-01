@@ -2,4 +2,6 @@
 Bienvenue
 =========
 
-[[Git/git]]
+[[Git |Git/git]]
+
+[[Bash | Bash/bash.rst]]
