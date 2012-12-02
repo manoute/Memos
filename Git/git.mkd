@@ -13,9 +13,9 @@ Visualiser les commits
 
 La visualisation de commits :
 
-    ```bash
+    ```
     $ git log --pretty=oneline -abbrev-commit -n4
-    $ git show as1e45 --format=email```
+    $ git show as1e45 --format=email
 
 Ajouter une origine
 -------------------
