@@ -7,7 +7,9 @@ Exemple
 
 .. code:: bash
 
-     #!/bin/bash
+    # ------------- SCRIPT ------------- #
+
+    #!/bin/bash
 
     echo
     echo "# arguments called with ---->  ${@}     "
@@ -22,3 +24,5 @@ Exemple
     export PATH=$(readlink -m ${0%/*}):$PATH
     echo "# my new PATH------------------------> $PATH"
     exit
+
+    # ------------- CALLED ------------- #
