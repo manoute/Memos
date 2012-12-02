@@ -4,21 +4,21 @@ GIT
 Des couleurs
 ------------
 
-On fait des couleurs avec :
-
     $ git config --global color.ui auto
 
 Visualiser les commits
 ----------------------
 
-La visualisation de commits :
-
-    $ git log --pretty=oneline -abbrev-commit -n4
-    $ git show as1e45 --format=email
+```
+$ git log --pretty=oneline -abbrev-commit -n4
+$ git show as1e45 --format=email
+```
 
 Ajouter une origine
 -------------------
 
+    ```
     $ git remote add origin https://github.com/username/Hello-World.git
     $ git remote add origin git@github.com:/username/Hello-World.git
     # Creates a remote named "origin" pointing at your GitHub repo
+    ```
