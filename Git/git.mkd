@@ -16,6 +16,7 @@ La visualisation de commits :
     ```
     $ git log --pretty=oneline -abbrev-commit -n4
     $ git show as1e45 --format=email
+    ```
 
 Ajouter une origine
 -------------------
