@@ -1,8 +1,8 @@
 Mémos
 =====
 
-[[Git |Git/git]]
+[[Git | git]]
 ----------------
 
-[[Bash | Bash/bash]]
+[[Bash | bash]]
 --------------------
