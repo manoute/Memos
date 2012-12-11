@@ -4,7 +4,7 @@ Bash
 Exemple
 -------
 
-```
+```bash
 #!/bin/bash
 
 echo
@@ -29,7 +29,7 @@ Pour tester si une variable a été initialisée et est non vide dans un script 
 
 - Première méthode :
 
-    ```
+    ```bash
     : ${toto?}
     ```
     Lors de la première passe du shell, il renvoie une erreur si la variable n'existe pas.
@@ -37,7 +37,7 @@ Pour tester si une variable a été initialisée et est non vide dans un script 
 
 - Deuxième méthode :
 
-    ```
+    ```bash
     [[ -z $toto ]] && exit $code_unset_or_null
 
     ```
@@ -53,7 +53,7 @@ Printf
 
 Forcer l'affichage sur au moins 3 chiffres significatifs
 
-```
+```bash
 $ printf "%03i\n" 2
 $ 002
 $ printf "%3.3i\n" 42
