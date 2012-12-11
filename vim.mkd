@@ -1,6 +1,9 @@
 .VIM PERSO
 ==========
 
+Installation
+------------
+
 1. Installer les fichiers:
 
      ```
