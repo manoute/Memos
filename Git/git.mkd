@@ -11,16 +11,7 @@ $ git config --global color.ui auto
 $ git config --global core.editor vim
 ```
 
-<div class="highlight-python"><pre>This is a statement.
-
-.. warning::
-
-   Never, ever, use this code!
-
-.. versionadded:: 0.0.1
-
-It's okay to use this code.</pre>
-</div>
+<span class="custom">Toto</span>
 
 Visualiser les commits
 ----------------------
