@@ -30,7 +30,7 @@ $ git log --pretty=oneline --abbrev-commit -n4
 $ git show as1e45 --format=email
 ```
 
-<p class="custom"> toto </p>
+<span class="custom"> toto </span>
 
 Ajouter une origine
 -------------------
