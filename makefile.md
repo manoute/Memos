@@ -4,7 +4,7 @@ Makefile
 exemple
 -------
 
-```makefiles
+```
 # The compiler
 FC = gfortran
 # flags for debugging or for maximum performance, comment as necessary
