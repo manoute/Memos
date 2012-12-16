@@ -75,7 +75,7 @@ Par exemple :
 
 ```makefile
 main : main.c
-gcc –o $@ $<
+    gcc –o $@ $<
 ```
 
 liens
