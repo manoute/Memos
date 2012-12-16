@@ -59,3 +59,8 @@ clean:
 clobber: clean
   rm -f $(PROGRAMS)
 ```
+
+liens
+-----
+
+* [[ http://gl.developpez.com/tutoriel/outil/makefile ]]
