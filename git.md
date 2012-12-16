@@ -28,10 +28,4 @@ $ git remote add origin git@github.com:/username/Hello-World.git
 # Creates a remote named "origin" pointing at your GitHub repo
 ```
 
-Créer une archive
------------------
-
-```
-$ git archive --format=tar --prefix=mydir/ HEAD > archive.tar
-```
 

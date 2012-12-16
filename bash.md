@@ -22,10 +22,8 @@ echo "# my new PATH------------------------> $PATH"
 exit
 ```
 
-Caractères spéciaux (voir [[ ici | http://tldp.org/LDP/abs/html/special-chars.html) ]])
--------------------
-
-### Initialisation de variables
+Initialisation de variables
+---------------------------
 
 Pour tester si une variable a été initialisée et est non vide dans un script :
 
@@ -44,7 +42,8 @@ Pour tester si une variable a été initialisée et est non vide dans un script 
 
     ```
 
-### Forcer l'utilisation de la commande système avec \
+Forcer l'utilisation de la commande système avec \
+--------------------------------------------------
 
 `$ \cp source cible` utilisera toujours la commande système,
 même si elle a été redéfinie ou "aliasées".
