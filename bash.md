@@ -22,8 +22,10 @@ echo "# my new PATH------------------------> $PATH"
 exit
 ```
 
-Initialisation de variables
----------------------------
+Caractères spéciaux
+-------------------
+
+### Initialisation de variables
 
 Pour tester si une variable a été initialisée et est non vide dans un script :
 
@@ -42,8 +44,7 @@ Pour tester si une variable a été initialisée et est non vide dans un script 
 
     ```
 
-Forcer l'utilisation de la commande système avec \
---------------------------------------------------
+### Forcer l'utilisation de la commande système avec \
 
 `$ \cp source cible` utilisera toujours la commande système,
 même si elle a été redéfinie ou "aliasées".
