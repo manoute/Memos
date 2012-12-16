@@ -81,5 +81,5 @@ main : main.c
 liens
 -----
 
-* [[ make | pdf/make.pdf ]]
+* [[ make.pdf | pdf/make.pdf ]], le même [[ici|http://dpt-info.u-strasbg.fr/~mathis/Enseignement/IPA/MakefileDir/make.pdf ]]
 * [[ http://gl.developpez.com/tutoriel/outil/makefile ]]
