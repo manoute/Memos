@@ -78,6 +78,16 @@ main : main.c
     gcc –o $@ $<
 ```
 
+Compilation conditionnelle via le préprocesseur
+-----------------------------------------------
+
+Lors de la compilation, on peut ajouter des constantes pour le préprocesseur c++.
+Pour g++, par exemple :
+```bash
+g++ -DFOOVAR1 -DFOOVAR2=VALUE ...
+```
+Ces options peuvent aussi être ajouter aux flags de compilations.
+
 liens
 -----
 
