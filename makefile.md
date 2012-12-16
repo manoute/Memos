@@ -60,7 +60,26 @@ clobber: clean
   rm -f $(PROGRAMS)
 ```
 
+Variables automatiques
+----------------------
+
+nom | signification
+----|--------------
+$@  | nom de la cible qui provoque l'exécution de la commande 
+$<  | nom de la 1ère dépendance
+$?  |nom de toutes les dépendances qui sont plus récentes que la cible
+$^  |nom de toutes les dépendances
+$*  |chaîne de caractères extraite par un filtre
+
+Par exemple :
+
+```makefile
+main : main.c
+gcc –o $@ $<
+```
+
 liens
 -----
 
+* [[ make | pdf/make.pdf ]]
 * [[ http://gl.developpez.com/tutoriel/outil/makefile ]]
