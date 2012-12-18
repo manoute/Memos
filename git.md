@@ -19,14 +19,56 @@ $ git log --pretty=oneline --abbrev-commit -n4
 $ git show as1e45 --format=email
 ```
 
-Ajouter une origine
--------------------
+Ajouter/modifier un dépôt distant
+---------------------------------
 
-```bash
-$ git remote add origin https://github.com/username/Hello-World.git
-$ git remote add origin git@github.com:/username/Hello-World.git
-# Creates a remote named "origin" pointing at your GitHub repo
-```
+* Ajouter un dépot distant comme origine :
+
+    ```bash
+    $ git remote add origin git@github.com:/username/Hello-World.git
+    ```
+
+* Modifier l'origine :
+
+    ```bash
+    $ git config remote.origin.url git@newserver:/newrepo.git
+    ```
+
+* Renommer une branche
+
+    ```bash
+    $ git remote rename origin github
+    ```
+
+[[Gitolite | http://sitaramc.github.com/gitolite/master-toc.html ]]
+-------------------------------------------------------------------
+
+### Utiliser un dépot existant avec Gitolite
+
+* Sur l'utilisateur "hôte" de Gitolite
+  
+    - Créer le dépot correspondant
+    
+      ```bash
+      $ git init --bare myrepo.git
+      ```
+    - Exécuter 
+        ```bash
+        $ gitolite setup
+        ```
+
+* Sur l'utilisateur "administrateur" de gitolite
+
+    - Ajouter le dépot myrepo.git dans le conf/gitolite.conf du dépôt
+      *gitolite-admin* cloné
+    - Git commit et git push sur le dépot *gitolite-admin*
+    
+* Dans le dépot existant, ajouter un dépôt distant
+
+    ```bash
+    $ git remote add newremote git@gitolite.com:/myrepo.git
+    $ git push newremote branch
+    ```
 
 Créer une archive
 -----------------
