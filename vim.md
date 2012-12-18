@@ -32,11 +32,10 @@ Notes pour solarized et gnome terminal
 
 1. Créer un nouveau profil pour gnome-terminal (Edition -> Profils)
 
-2. Installer [gnome-terminal-colors-solarized](https://github.com/sigurdga/gnome-terminal-colors-solarized)
+2. Installer [gnome-terminal-colors-solarized](https://github.com/sigurdga/gnome-terminal-colors-solarized) en clonant de dépot git puis exécutant
+*install.sh*
 
-3. Cloner le dépôt git, puis exécuter install.sh :
-
-    ```
+    ```bash
     $ git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git
     $ cd gnome-terminal-colors-solarized
     $ ./install.sh
