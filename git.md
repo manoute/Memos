@@ -81,3 +81,4 @@ Liens
 -----
 
 * [[ Gitref | http://gitref.org ]]
+* [[ Pro Git | http://git-scm.com/book ]]
