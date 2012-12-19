@@ -1,8 +1,11 @@
-.VIM PERSO
-==========
+VIM
+===
 
-Installation
-------------
+.VIM PERSO
+----------
+
+### Installation
+
 
 1. Installer les fichiers:
 
@@ -27,8 +30,7 @@ Installation
 
     Lancer `vim`, exécuter `:BundleInstall` 
 
-Notes pour solarized et gnome terminal
---------------------------------------
+### Notes pour solarized et gnome terminal
 
 1. Créer un nouveau profil pour gnome-terminal (Edition -> Profils)
 
@@ -43,4 +45,11 @@ Notes pour solarized et gnome terminal
 
 4. Le choix de light ou dark pour la console doit être en accord avec celui de .vim/after/plugin/vim-colors-solarized.vim
 
+Compléments sur certains plugins
+--------------------------------
 
+### Aligner du text avec [[Tabular | https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt ]]
+
+Voir [[ Vimcast.org | http://vimcasts.org/episodes/aligning-text-with-tabular-vim/ ]]
+
+### Utiliser git dans vim avec [[ fugitive | https://github.com/tpope/vim-fugitive ]]
