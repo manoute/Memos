@@ -77,3 +77,7 @@ Créer une archive
 $ git archive --prefix=mydir/ HEAD > archive.tar
 ```
 
+Liens
+-----
+
+* [[ Gitref | http://gitref.org ]]
