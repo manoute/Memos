@@ -62,11 +62,11 @@ Ajouter/modifier un dépôt distant
     - Ajouter le dépot myrepo.git dans le conf/gitolite.conf du dépôt
       *gitolite-admin* cloné
     - Git commit et git push sur le dépot *gitolite-admin*
-    
+
 * Dans le dépot existant, ajouter un dépôt distant
 
     ```bash
-    $ git remote add newremote git@gitolite.com:/myrepo.git
+    $ git remote add newremote git@gitolite.com:myrepo.git
     $ git push newremote branch
     ```
 
