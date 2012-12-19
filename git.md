@@ -31,7 +31,7 @@ Ajouter/modifier un dépôt distant
 * Modifier l'origine :
 
     ```bash
-    $ git config remote.origin.url git@newserver:/newrepo.git
+    $ git config remote.origin.url git@newserver:newrepo.git
     ```
 
 * Renommer une branche
